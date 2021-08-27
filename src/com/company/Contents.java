@@ -61,12 +61,12 @@ public class Contents extends JPanel implements ActionListener {
 
         if(x <= 0)
             xV = 1;
-        else if(x >= 900 - 100)
+        else if(x >= 885 - 100)
             xV = -1;
 
         if(y <= 0)
             yV = 1;
-        else if(y >= 600 - 52)
+        else if(y >= 560 - 52)
             yV = -1;
 
         repaint();
